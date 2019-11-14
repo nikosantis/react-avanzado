@@ -1,0 +1,54 @@
+crear /src
+index.js
+
+npm init -y
+
+npm i webpack wepack-cli --save-dev
+
+crear el /dist
+./node_modules/.bin/webpack src/index.js
+
+node dist/main.js
+
+Instalaremos html-webpack-plugin con:
+npm i html-webpack-plugin --save-dev
+
+crear el archivo webpack.config.js
+configurarlo y importar HtmlWebpackPlugin
+
+crear script en package.json "build" con "webpack"
+
+npm run build
+
+instalar el servidor de desarrollo de webpack
+
+npm i webpack-dev-server --save-dev
+
+añadir en package.json "dev": "webpack-dev-server"
+
+REACT
+
+Installar react y react-dom
+
+npm i react react-dom
+
+configurar index.js
+
+crear index.html en /src
+
+configurar webpack con template: 'src'
+
+instalar babel para sintaxis jsx
+
+npm i @babel/core @babel/preset-env babel-loader @babel/preset-react --save-dev
+
+configurar webpack module rules con babel
+
+instalar dependencia de babel react
+
+npm install @babel/preset-react --save-dev
+
+configurar webpack options con @babel/preset-react
+
+npm run dev
+
