@@ -52,3 +52,34 @@ configurar webpack options con @babel/preset-react
 
 npm run dev
 
+2.-
+
+Usando Linter
+
+Primero instalamos "standart"
+
+npm i standard --save-dev
+
+luego creamos el script de standard package
+
+""lint"": ""standard""
+
+ejecutamos npm run standard
+
+luego agregamos directorio a ignore de standard
+
+""standard"": [
+	""ignore"": [
+		""/api/**""
+	]
+]
+
+ahí podremos ordenar nuestros archivos.
+
+luego debemos agregar una configuración de eslint para que no tengamos que cargar el script a cada momento.
+
+""eslintConfig"": {
+	""extends"": [
+		""./node_modules/standard/eslintrc.json""
+	]
+}
