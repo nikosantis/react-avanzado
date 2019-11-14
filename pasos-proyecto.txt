@@ -83,3 +83,13 @@ luego debemos agregar una configuración de eslint para que no tengamos que carg
 		""./node_modules/standard/eslintrc.json""
 	]
 }
+
+now es una plataforma que hace deploy de manera sencilla
+
+deploy con
+now
+
+isntalar styled components
+
+npm install styled-components
+
