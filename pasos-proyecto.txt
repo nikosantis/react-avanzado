@@ -93,3 +93,11 @@ isntalar styled components
 
 npm install styled-components
 
+usar styled-components
+
+usar GlobalStyle con styled-components
+
+para íconos instalar
+
+npm install react-icons
+
