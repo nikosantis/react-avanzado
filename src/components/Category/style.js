@@ -4,7 +4,7 @@ export const Anchor = styled.a`
   display: flex;
   flex-direction: column;
   text-align: center;
-  text-decotarion: none;
+  text-decoration: none;
   width: 75px;
 `
 export const Image = styled.img`
