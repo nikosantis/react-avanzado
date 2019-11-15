@@ -101,3 +101,14 @@ para íconos instalar
 
 npm install react-icons
 
+crear logo rápido
+maketext.io
+
+convertir svg a text
+https://jakearchibald.github.io/svgomg/
+
+svg a component
+https://www.smooth-code.com/open-source/svgr/playground/
+
+
+
