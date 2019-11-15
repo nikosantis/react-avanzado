@@ -111,4 +111,11 @@ svg a component
 https://www.smooth-code.com/open-source/svgr/playground/
 
 
+instalar polyfill de Intersection Observer
 
+npm install intersection-observer
+
+luego instalar
+
+npm i @babel/plugin-syntax-dynamic-import -D
+npm i babel-eslint -D
