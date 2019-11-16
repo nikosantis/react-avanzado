@@ -119,3 +119,10 @@ luego instalar
 
 npm i @babel/plugin-syntax-dynamic-import -D
 npm i babel-eslint -D
+
+graphql
+no reemplaza a Api REST
+apollo es el cliente que maneja graphql con react
+
+npm install apollo-boost react-apollo graphql
+
