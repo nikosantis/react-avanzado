@@ -126,3 +126,19 @@ apollo es el cliente que maneja graphql con react
 
 npm install apollo-boost react-apollo graphql
 
+para usar router
+reach router
+
+npm install @reach/router
+
+se debe cambiar la configuración del dev
+
+"dev": "webpack-dev-server --history-api-fallback",
+
+luego se debe cambiar una configuración de webpack para que encuentra bundle.js
+
+output: {
+    filename: 'app.bundle.js',
+    publicPath: '/'
+  },
+
