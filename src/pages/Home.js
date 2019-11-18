@@ -4,7 +4,7 @@ import { ListOfCategories } from '../components/ListOfCategories'
 import { ListOfPhotoCardsWithQuery } from '../container/ListOfPhotoCardsWithQuery'
 import { Helmet } from 'react-helmet'
 
-export const Home = ({ id }) => {
+const HomePage = ({ categoryId }) => {
   return (
     <>
       <Helmet>
@@ -13,7 +13,11 @@ export const Home = ({ id }) => {
       </Helmet>
       <h1>Tu Apps de Fotos de Mascotas</h1>
       <ListOfCategories />
-      <ListOfPhotoCardsWithQuery categoryId={id} />
+      <ListOfPhotoCardsWithQuery categoryId={categoryId} />
     </>
   )
 }
+
+export const Home = React.memo(HomePage, (prevProps, props) => {
+  return prevProps.categoryId === props.categoryId
+})

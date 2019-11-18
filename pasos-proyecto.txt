@@ -145,3 +145,13 @@ output: {
 para el SEO, usar React Helmet
 
 npm install react-helmet
+
+midiendo el performance de la app usando React.memo()
+
+compilar en modo dev
+
+./node_modules/.bin/webpack --mode "development"
+
+luego usar este comando indicando que es una single page application
+
+npx serve dist -s
