@@ -3,12 +3,13 @@ import { Context } from '../Context'
 import { UserForm } from '../components/UserForm'
 import { RegisterMutation } from '../container/RegisterMutation'
 import { LoginMutation } from '../container/LoginMutation'
+import { Layout } from '../components/Layout'
 
 export const NotRegisteredUser = () => {
   const { activateAuth } = useContext(Context)
 
   return (
-    <>
+    <Layout title='Inicia Sesión o Regístrate' subtitle='Aquí puedes iniciar sesión o registrarte en Petgram.'>
       <RegisterMutation>
         {
           (register, { data, loading, error }) => {
@@ -51,6 +52,6 @@ export const NotRegisteredUser = () => {
           }
         }
       </LoginMutation>
-    </>
+    </Layout>
   )
 }

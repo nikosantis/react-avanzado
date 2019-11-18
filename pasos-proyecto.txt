@@ -142,3 +142,6 @@ output: {
     publicPath: '/'
   },
 
+para el SEO, usar React Helmet
+
+npm install react-helmet

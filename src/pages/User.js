@@ -1,13 +1,13 @@
 import React, { useContext } from 'react'
 import { Context } from '../Context'
 import { SubmitButton } from '../components/SubmitButton'
+import { Layout } from '../components/Layout'
 
 export const User = () => {
   const { removeAuth } = useContext(Context)
   return (
-    <>
-      <h1>User</h1>
+    <Layout title='Usuario' description='Aquí econtrarás la información de usuario.'>
       <SubmitButton onClick={removeAuth}>Cerrar Sesión</SubmitButton>
-    </>
+    </Layout>
   )
 }
