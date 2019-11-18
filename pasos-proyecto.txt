@@ -159,3 +159,9 @@ npx serve dist -s
 validar props con PropsTypes
 
 npm install prop-types
+
+para que sea una PWA
+
+installar pwa-manifest
+
+npm install webpack-pwa-manifest -D
