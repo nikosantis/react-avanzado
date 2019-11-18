@@ -155,3 +155,7 @@ compilar en modo dev
 luego usar este comando indicando que es una single page application
 
 npx serve dist -s
+
+validar props con PropsTypes
+
+npm install prop-types
