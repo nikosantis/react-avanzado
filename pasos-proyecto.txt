@@ -169,3 +169,11 @@ npm install webpack-pwa-manifest -D
 install PWA soporte offline
 
 npm install workbox-webpack-plugin -D
+
+testear con Cypress
+
+npm install cypress -D
+
+usar:
+
+./node_modules/.bin/cypress open
