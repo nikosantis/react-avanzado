@@ -165,3 +165,7 @@ para que sea una PWA
 installar pwa-manifest
 
 npm install webpack-pwa-manifest -D
+
+install PWA soporte offline
+
+npm install workbox-webpack-plugin -D

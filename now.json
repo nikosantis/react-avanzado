@@ -9,7 +9,7 @@
       "src": "(.*).js", "dest": "/$1.js"
     },
     {
-      "src": "(.*).json", "dest": "/$1.jsson"
+      "src": "(.*).json", "dest": "/$1.json"
     },
     {
       "src": "/.*", "dest": "/index.html"
